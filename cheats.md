@@ -31,7 +31,7 @@ $ git remote add origin git@github.com:<username>/<name of repository>
 $ git push -u origin master
 ```
 
-### Help someon else with their code
+### Help someone else with their code
 
 First, find the code on github that you want to contribute to.
 
