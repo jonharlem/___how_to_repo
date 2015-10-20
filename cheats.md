@@ -52,3 +52,23 @@ Finish what you started working on, then push up any additional commits.
 File a pull request with the commits in it that you want to share. Make sure you have a good explanation in the pull request of what this is, what it's intended to do, and some nice language.
 
 ### How to work on two different things at the same time
+
+Branching is for when you want to work on something that might span over multiple commits, that's significant enough to warrant some kind of really specific destination.
+
+### Aliases
+
+Git doesn’t automatically infer your command if you type it in partially. If you don’t want to type the entire text of each of the Git commands, you can easily set up an alias for each command using:
+
+```shell
+$ git config
+```
+
+Eamples:
+
+```shell
+$ git config --global alias.co checkout
+$ git config --global alias.br branch
+$ git config --global alias.ci commit
+$ git config --global alias.st status
+```
+
